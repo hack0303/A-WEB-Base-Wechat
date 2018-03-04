@@ -1,0 +1,42 @@
+@charset "utf-8";
+#date_state table{
+height:3em;
+width:100%;
+background:white;
+}
+#date_state table tr:nth-of-type(1){
+	height:3em;
+}
+#date_state table tr:nth-of-type(1) td{
+	height:3em;
+	width:20%;
+	position:relative;
+}
+#date_state table tr:nth-of-type(1) p{
+	font-size:1.5em;
+	height:2em;
+	text-align:center;
+	line-height:2em;
+	width:100%;
+	position:absolute;
+	margin:auto;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+#date_state a:link{
+	color:#cc9966;
+}
+#date_state a:hover{
+	color:#cc9966;
+}
+#date_state a:visited{
+	color:#cc9966;
+}
+#date_state a:active{
+	color:#cc9966;
+}
+.red{
+	border-bottom:2px #cc9966 solid;
+}

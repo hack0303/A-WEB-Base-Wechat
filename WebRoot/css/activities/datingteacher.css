@@ -1,0 +1,38 @@
+@charset "utf-8";
+html{
+	height:100%;
+	width:100%;
+}
+body{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+body #grid #top_nav{
+	width:100%;
+}
+body #grid #top_nav img{
+	width:100%;
+}
+body #footer{
+	height:50px;
+position:relative;
+}
+body #footer #submit{
+	position:absolute;
+	height:30px;
+	width:150px;
+	text-align:center;
+	font-size:16px;
+	font-weight:800;
+	line-height:30px;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:#C8AE66;
+	border-radius:5px;
+	cursor:pointer;
+}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+html{
+	height:100%;
+	width:100%;
+font-family:"雅黑";
+}
+body{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+body #title{
+	height:60px;
+	width:40%;
+	padding:10px 0 0 10%;
+	background:url(../../../../image/system/title.png) no-repeat;
+	background-size:100% 100%;
+	color:white;
+}
+body #title p{
+margin:0 auto 5px;
+}
+body #nav h1{
+	margin:1em auto;
+}
+body #nav p{
+	margin:0 auto 0.5em;
+}
+#footer{
+	height:72px;
+	width:100%;
+	margin-top:1em;
+	position:relative;
+}
+#footer #submit{
+	font-size:12px;
+	height:36px;
+	width:144px;
+	border-radius:5px;
+	background:#cc9966;
+	color:white;
+	position:absolute;
+	 margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:center;
+    line-height:36px;
+    cursor:pointer;
+    word-spacing:12px;
+    font-weight:800;
+}

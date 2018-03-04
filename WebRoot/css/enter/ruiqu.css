@@ -1,0 +1,133 @@
+@charset "utf-8";
+html{
+	height:100%;
+	overflow:hidden;
+	font;
+}
+body{
+	height:100%;
+	overflow:hidden;
+}
+body #one{
+	height:35%;
+	background:url(../../image/enter/ruiqu.jpg) no-repeat;
+	background-size:100% 100%;
+}
+body #two{
+	height:15%;
+position:relative;
+}
+body #two .vertical{
+	height:4em;
+	margin:0px;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+position:absolute;	
+}
+body #two p{
+	text-align:center;
+}
+body #two p:nth-child(1){
+	margin:1em auto 0;
+	font-weight:600;
+	font-size:1.5em;
+}
+body #two p:nth-child(2){
+	margin:0.5em auto 0;
+	font-size:1em;
+font-weight:600;
+}
+body #three{
+	height:30%;
+	background:url(../../image/enter/xunta/three.png) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+}
+body #three p{
+	text-align:center;
+}
+body #three #nav_left,body #three #nav_right{
+	width:50%;
+	height:100%;
+    float:left;
+}
+body #three #nav_top,body #three #nav_bottom{
+	height:50%;
+	width:100%;
+}
+.nav_button{
+	height:60%;
+	width:60%;
+	margin:0 20% auto;
+}
+body #three #nav_top p:nth-of-type(1){
+	margin:1em auto 0px;
+	font-size:1em;
+	font-weight:bold;
+	opacity:0.5;
+}
+body #three #nav_top p:nth-of-type(2){
+	margin:0.5em auto 0px;
+	font-size:1em;
+	font-weight:600;
+}
+body #three #nav_left #nav_bottom .nav_button{
+border:3px solid #cc9966;
+cursor:pointer;
+position:relative;
+	}
+body #three #nav_left #nav_bottom .nav_button p:nth-of-type(1){
+	height:1em;
+	margin:auto;
+	top:-1em;
+	bottom:0px;
+	left:0px;
+	right:0px;
+position:absolute;	
+}
+body #three #nav_left #nav_bottom .nav_button p:nth-of-type(2){
+	height:1em;
+	margin:auto;
+	top:1em;
+	bottom:0px;
+	left:0px;
+	right:0px;
+position:absolute;
+	}
+body #three #nav_right #nav_bottom .nav_button{
+color:white;
+background:#cc9966;
+border:2px solid #cc9966;
+cursor:pointer;
+position:relative;
+	}
+body #three #nav_right #nav_bottom .nav_button p:nth-of-type(1){
+	height:1em;
+	margin:auto;
+	top:-1em;
+	bottom:0px;
+	left:0px;
+	right:0px;
+position:absolute;
+}
+body #three #nav_right #nav_bottom .nav_button p:nth-of-type(2){
+	height:1em;
+	margin:auto;
+	top:1em;
+	bottom:0px;
+	left:0px;
+	right:0px;
+position:absolute;
+	
+}
+body #four{
+	height:20%;
+	color:#cc9966;
+}
+body #four #nav{
+	width:50%;
+	height:50%;
+	margin:3em 0px 0px auto;
+}

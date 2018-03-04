@@ -1,0 +1,23 @@
+@charset "utf-8";
+body #top #top_nav{
+	height:40%;
+	background:url(../../image/activities/2/1.jpg) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+body #top #top_nav p{
+	height:1.5em;
+	width:100%;
+	text-align:right;
+	line-height:1.5em;
+	position:absolute;
+	bottom:0;
+	font-weight:800;
+}
+body #top #top_nav p a{
+	color:black;
+}
+body #top #top_nav p a:hover{
+	color:black;
+	text-decoration:underline;
+}

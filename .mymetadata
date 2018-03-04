@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module type="WEB" name="yohoo" id="myeclipse.1467170746380"
+	context-root="/yohoo" j2ee-spec="6.0" archive="yohoo.war">
+	<attributes>
+		<attribute name="webrootdir" value="src/main/webapp" />
+	</attributes>
+</project-module>
+

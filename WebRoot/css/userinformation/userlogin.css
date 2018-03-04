@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	height:100%;
+}
+/*
+*width:320px;
+*/
+body{
+	height:100%;
+	margin:auto;
+	background:url(../../image/system/userlogin.png) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+#login{
+	position:absolute;
+	overflow:hidden;
+	width:90%;
+	height:240px;
+	color: #666;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+	}
+body #login .list{
+	height:60px;
+		position:relative;
+}
+body #login .list img{
+	width:24px;
+	height:24px;
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:-228px;
+    right:0;
+    z-index:3;
+    
+}
+::-webkit-input-placeholder { /* WebKit browsers */ 
+color:white; 
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color:white; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color:white; 
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color:white; 
+}
+body input[name="phone"],body input[name="checkcode"]{
+   	height:36px;
+	width:204px;
+padding:0 24px;
+background:none;
+position:absolute;
+color:white;
+ margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    border:2px #cc9966 solid;
+    border-radius:5px;
+    line-height:36px;
+
+}
+body input[type="text"]:focus{
+	border:1px solid blue;
+}
+body .list #check{
+	font-size:12px;
+	height:36px;
+	width:144px;
+	border-radius:5px;
+	background:#cc9966;
+   color:white;
+line-height:12px;
+position:absolute;
+ margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:center;
+    cursor:pointer;
+}
+body .list #check p{
+    margin:6px auto;
+}
+body .list #submit{
+	font-size:12px;
+	height:36px;
+	width:144px;
+	border-radius:5px;
+	background:#cc9966;
+	color:white;
+	position:absolute;
+	 margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:center;
+    line-height:36px;
+    cursor:pointer;
+    word-spacing:12px;
+    font-weight:800;
+}

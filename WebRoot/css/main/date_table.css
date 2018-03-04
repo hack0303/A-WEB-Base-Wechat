@@ -1,0 +1,99 @@
+@charset "utf-8";
+.date_table{
+	height:16em;
+	width:100%;
+}
+.date_table table{
+	width:100%;
+}
+.date_table table tr:nth-of-type(1){
+	width:100%;
+}
+.date_table table tr:nth-of-type(1) td{
+	height:2em;
+	width:100%;
+	color:silver;
+	background:white;
+}
+.date_table table tr:nth-of-type(1) h1{
+	width:18em;
+	float:left;
+	margin-left:1em;
+}
+.date_table table tr:nth-of-type(1) p{
+	float:right;
+	padding-right:1em;
+}
+.date_table table tr:nth-of-type(2){
+	height:10em;
+}
+.date_table table tr:nth-of-type(2) td:nth-of-type(1){
+	width:40%;
+	height:10em;
+	position:relative;
+}
+.date_table table tr:nth-of-type(2) td:nth-of-type(1) img{
+	width:8em;
+	height:8em;
+	position:absolute;
+	margin:auto;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+.date_table table tr:nth-of-type(2) td:nth-of-type(2){
+	width:35%;
+}
+.date_table table tr:nth-of-type(2) td:nth-of-type(3){
+	width:25%;
+}
+.date_table table tr:nth-of-type(3){
+	height:3em;
+	width:100%;
+	background:white;
+}
+.date_table table tr:nth-of-type(3) td{
+	width:33%;
+	height:100%;
+}
+.date_table table tr:nth-of-type(3) td p{
+	text-align:center;
+	line-height:2em;
+	margin:auto;
+}
+.date_table table tr:nth-of-type(3) td:nth-of-type(1) p{
+	height:2em;
+	width:6em;
+	border:silver 2px solid;
+	border-radius:5px;
+}
+.date_table table tr:nth-of-type(3) td:nth-of-type(1) a:link{
+	color:red;
+}
+.date_table table tr:nth-of-type(3) td:nth-of-type(2) p{
+	height:2em;
+	width:6em;
+	border:silver 2px solid;
+	border-radius:5px;
+}
+.date_table table tr:nth-of-type(3) td:nth-of-type(2) a:link{
+	color:black;
+}
+.date_table table tr:nth-of-type(3) td:nth-of-type(3) p{
+	height:2em;
+	width:6em;
+	border:#cc9966 2px solid;
+	color:#cc9966;
+	border-radius:5px;
+}
+.date_table table tr:nth-of-type(3) td:nth-of-type(3) a:link{
+	color:red;
+}
+#msg{
+	margin:1em;
+	height:3em;
+	line-height:3em;
+	text-align:center;
+	
+}

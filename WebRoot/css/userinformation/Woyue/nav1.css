@@ -1,0 +1,47 @@
+@import "utf-8";
+#nav1{
+	height:2em;
+	background:white;
+	line-height:2em;
+	overflow:hidden;
+}
+#nav1 h1{
+	height:2em;
+	width:60%;
+	float:left;
+}
+#nav1 h1 img{
+	height:2em;
+	width:2em;
+	margin:0 1em;
+	border:none;
+	float:left;
+}
+
+#nav1 h1 p{
+	float:left;
+height:2em;
+width:6em;
+line-height:2em;
+}
+#nav1 p{
+	height:2em;
+	width:9em;
+	float:right;
+	color:black;
+	font-weight:bold;
+	opacity:0.7;
+	line-heigh:2em;
+}
+#nav1 h1+p a:link{
+	color:black!important;
+}
+#nav1 h1+p a:hover{
+	color:black;
+}
+#nav1 h1+p a:visited{
+	color:black;
+}
+#nav1 h1+p a:active{
+	color:black;
+}
