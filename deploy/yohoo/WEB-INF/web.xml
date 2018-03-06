@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" metadata-complete="true" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.MyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForwardServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.ForwardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SecurityServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.SecurityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.LoginOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AJAXServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.AJAXServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.PayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.MessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DateServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.DateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ActivitiesServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.ActivitiesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginOutServlet</servlet-name>
+    <servlet-class>cn.net.www.servlet.AdminLoginOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/MyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForwardServlet</servlet-name>
+    <url-pattern>/ForwardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SecurityServlet</servlet-name>
+    <url-pattern>/SecurityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <url-pattern>/LoginOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AJAXServlet</servlet-name>
+    <url-pattern>/AJAXServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayServlet</servlet-name>
+    <url-pattern>/PayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/MessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DateServlet</servlet-name>
+    <url-pattern>/DateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActivitiesServlet</servlet-name>
+    <url-pattern>/ActivitiesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginOutServlet</servlet-name>
+    <url-pattern>/AdminLoginOutServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <resource-ref>
+    <res-ref-name>test</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+    <res-sharing-scope>Shareable</res-sharing-scope>
+  </resource-ref>
+  <jsp-config>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+      <taglib-location>/WEB-INF/lib_mapping/c.tld</taglib-location>
+    </taglib>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/xml</taglib-uri>
+      <taglib-location>/WEB-INF/lib_mapping/x.tld</taglib-location>
+    </taglib>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/fmt</taglib-uri>
+      <taglib-location>/WEB-INF/lib_mapping/fmt.tld</taglib-location>
+    </taglib>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/sql</taglib-uri>
+      <taglib-location>/WEB-INF/lib_mapping/sql.tld</taglib-location>
+    </taglib>
+  </jsp-config>
+  <filter>
+    <filter-name>CharacterFilter</filter-name>
+    <filter-class>cn.net.www.filter.CharacterFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharacterFilter</filter-name>
+    <servlet-name>ForwardServlet</servlet-name>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/*</url-pattern>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-name>SecurityServlet</servlet-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-name>AJAXServlet</servlet-name>
+    <servlet-name>PayServlet</servlet-name>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-name>DateServlet</servlet-name>
+    <servlet-name>ActivitiesServlet</servlet-name>
+        <servlet-name>AdminLoginOutServlet</servlet-name>
+    <dispatcher>ASYNC</dispatcher>
+    <dispatcher>ERROR</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+    <dispatcher>INCLUDE</dispatcher>
+    <dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+  <listener>
+    <listener-class>cn.net.www.listener.RequestListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>cn.net.www.listener.SessionListener</listener-class>
+  </listener>
+  <session-config>
+    <session-timeout>30</session-timeout>
+    <tracking-mode>COOKIE</tracking-mode>
+    <tracking-mode>SSL</tracking-mode>
+    <tracking-mode>URL</tracking-mode>
+  </session-config>
+  <filter>
+    <filter-name>sessionFilter</filter-name>
+    <filter-class>cn.net.www.filter.SessionFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>sessionFilter</filter-name>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-name>DateServlet</servlet-name>
+    <servlet-name>ActivitiesServlet</servlet-name>
+        <servlet-name>PayServlet</servlet-name>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+  <filter>
+    <filter-name>LoginOutFilter</filter-name>
+    <filter-class>cn.net.www.filter.LoginOutFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginOutFilter</filter-name>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+  <filter>
+    <filter-name>AdminSessionFilter</filter-name>
+    <filter-class>cn.net.www.filter.AdminSessionFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AdminSessionFilter</filter-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <dispatcher>FORWARD</dispatcher>
+    <dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+    <filter>
+        <filter-name>AdminLoginOutFilter</filter-name>
+        <filter-class>cn.net.www.filter.AdminLoginOutFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AdminLoginOutFilter</filter-name>
+        <servlet-name>AdminLoginOutServlet</servlet-name>
+        <dispatcher>REQUEST</dispatcher>
+        <dispatcher>FORWARD</dispatcher>
+    </filter-mapping>
+    <session-config>
+    <session-timeout>1200</session-timeout>
+    <tracking-mode>COOKIE</tracking-mode>
+    </session-config>
+</web-app>

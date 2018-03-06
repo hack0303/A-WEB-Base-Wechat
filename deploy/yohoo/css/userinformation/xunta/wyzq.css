@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import url(../../main/top_nav.css);
+@import url(../../main/footer.css);
+html{
+	height:100%;
+overflow:hidden;
+}
+body{
+	height:100%;
+	overflow:hidden;
+   position:relative;
+}
+body #top{
+	height:90%;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+body #footer{
+	height:10%;
+}
+body #top #item{
+	padding:1.5em 5%;
+	width:90%;
+}
+body #top #item .type1{
+	width:50%;
+	float:left;
+	margin-bottom:0.5em;
+}
+body #top #item .type1 p:nth-of-type(1){
+	color:#cc9966;
+	display:inline;
+	margin-right:0.5em;
+}
+body #top #item .type1 p:nth-of-type(2){
+	display:inline;
+}
+body #top #item .type2{
+	width:100%;
+	margin-bottom:0.5em;
+}
+body #top #item .type2 h1{
+	width:100%;
+	margin-bottom:0.5em;
+	color:#cc9966;
+}
+body #top #item .type2 p{
+	width:100%;
+	height:6em;
+	line-height:1.5em;
+	text-indent:1em;
+	margin-bottom:0.5em;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+body #top #check{
+	height:2em;
+	text-align:center;
+}
+body #top #submit{
+	height:2em;
+	text-align:center;
+}
+body #top #submit{
+	height:2em;
+	width:6em;
+	line-height:2em;
+	color:white;
+	background:#cc9966;
+	border-radius:5px;
+	cursor:pointer;
+	margin:1em auto;
+	}
+body #top #msg{
+	height:3em;
+	padding:0.5em;
+	width:90%;
+	margin:1em auto;
+	line-height:1em;
+	border:5px double red;
+}
+body #top #link_admin{
+	text-decoration:underline;
+	margin:1em 10%;
+	width:6em;
+}
+body #pop{
+	height:100%;
+	width:100%;
+	position:absolute;
+	background:black;
+	opacity:.8;
+	color:white;
+	top:0;
+	z-index:10;
+	display:none;
+}
+body #pop #pop_top{
+	height:20%;
+position:relative;
+}
+
+body #pop #pop_top p{
+	height:1.5em;
+	width:1.5em;
+	font-size:2em;
+	position:absolute;
+	left:auto;
+	right:0;
+	border:3px solid red;
+	text-align:center;
+	line-height:1.5em;
+	border-radius:50% 50%;
+、}
+body #pop #pop_nav{
+	height:80%;
+	width:80%;
+	margin:auto;、
+}
+body #pop #pop_nav h1{
+	height:1em;
+	text-align:center;
+	line-height:1em;
+	font-size:3em;
+	margin:10px auto;
+、}
+body #pop #pop_nav p{
+	line-height:1.5em;
+	text-indent:2em;
+、}
+
+body #pop.hidden{
+	display:block;
+}

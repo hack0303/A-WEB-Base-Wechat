@@ -1,0 +1,99 @@
+@charset "utf-8";
+html{
+	height:100%;
+	overflow:hidden;
+}
+body{
+	height:100%;
+	width:100%;
+	overflow:scroll;
+	overflow-x:hidden;
+	position:relative;
+}
+body #top{
+	height:2em;
+	width:96%-0.4em;
+	margin:auto 2%;
+	padding:0.2em;
+	line-height:1em;
+	border:2px dashed #cc9966;
+}
+body #item{
+	margin:1.5em 5%;
+}
+body #item .type1{
+	margin:0px auto 0.5em;
+}
+body #item .type1 p{
+	display:inline;
+}
+body #item .type1 p:nth-of-type(1){
+	color:#cc9966;
+}
+body #item .type1 p:nth-of-type(2){
+}
+body #item .type2{
+	margin:1em auto 0px;
+}
+body #item .type2 h1{
+	width:100%;
+	margin-bottom:0.5em;
+	color:#cc9966;
+}
+body #item .type2 p{
+	width:100%;
+	height:6em;
+	line-height:1.5em;
+	text-indent:1em;
+	margin-bottom:0.5em;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+body #item .type3{
+	margin:1em auto 0px;
+}
+body #item .type3 h1{
+		color:#cc9966;
+}
+body #item .type3 ul{
+	margin:1em auto;
+    height:4em;
+}
+body #item .type3 ul li{
+    height:4em;
+    width:4em;
+    border:1px solid red;
+    float:left;
+    margin-left:1.5em;
+}
+body #check{
+	height:1.5em;
+	line-height:1.5em;
+	text-align:center;
+}
+body #submit{
+	margin:0.5em auto;
+	height:2em;
+	width:6em;
+	text-align:center;
+	background:#cc9966;
+	color:white;
+	line-height:2em;
+	border-radius:5px;
+	cursor:pointer;
+}
+body #msg{
+	color:red;
+	height:2em;
+	text-align:center;
+	line-height:2em;
+	font-weight:600;
+}
+body #pop{
+	height:500px;
+	width:200px;
+	position:absolute;
+	background:pink;
+	opacity:.8;
+	top:0;
+}
