@@ -84,11 +84,12 @@
 		<type>jar</type>
 		<systemPath>D:\local_java_lib\yohoo\taobao-sdk-java-auto_1455552377940-20160607-source.jar</systemPath>
 		</dependency>
-
+		<!-- provided -->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
-			<version>8.5.23</version>
+			<version>9.0.0.M21</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	 <build>
